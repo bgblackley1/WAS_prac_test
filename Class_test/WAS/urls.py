@@ -4,5 +4,6 @@ from WAS import views
 app_name = 'WAS'
 
 urlpatterns = [
-    path('Course', views.index, name='index'),
+    path('', views.index, name='index'),
+    path('course', views.index, name='index'),
 ]
